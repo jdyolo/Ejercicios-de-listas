@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Ej3 : MonoBehaviour
+public class : MonoBehaviour
 {
     int[] vidas = { 3, 2, 1 };
 
