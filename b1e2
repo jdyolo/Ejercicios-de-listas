@@ -1,0 +1,26 @@
+using NUnit.Framework;
+using UnityEngine;
+using System.Collections.Generic;
+using Unity.VisualScripting;
+
+public class Gamemanager1 : MonoBehaviour
+{
+    List<string> Inventario = new List<string>(3);
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        string item1 = "Pocion de salto";
+        string item2 = "Espada de hierro";
+        string item3 = "Manzana de Notch";
+
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
