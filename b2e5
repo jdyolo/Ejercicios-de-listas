@@ -1,1 +1,16 @@
+using UnityEngine;
+using System.Collections.Generic;
 
+public class:MonoBehaviour
+{
+    List<int> numeros = new List<int>();
+
+    void Start()
+    {
+        numeros.Add(1);
+        numeros.Add(2);
+        numeros.Add(3);
+
+        print("Cantidad: " + numeros.Count);
+    }
+}
