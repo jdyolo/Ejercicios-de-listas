@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using UnityEngine;
 
-public class Ej1 : MonoBehaviour
+public class : MonoBehaviour
 {
     int[] puntajes = { 10, 20, 30, 40, 50 };
 
