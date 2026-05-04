@@ -1,1 +1,17 @@
-,
+using UnityEngine;
+using System.Collections.Generic;
+
+public class Ej8 : MonoBehaviour
+{
+    List<string> lista = new List<string>();
+
+    void Start()
+    {
+        lista.Add("A");
+        lista.Add("B");
+        lista.Add("C");
+        lista.Add("D");
+
+        print("Posición 1: " + lista[1]);
+    }
+}
