@@ -1,0 +1,23 @@
+using NUnit.Framework;
+using UnityEngine;
+using System.Collections.Generic;
+using Unity.VisualScripting;
+
+public class Gamemanager1 : MonoBehaviour
+{
+    List<string> enemigo = new List<string>();
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        enemigo.Add("señor malito");
+        enemigo.Add("michael jackson");
+        enemigo.Add("josimar");
+        enemigo.Add("y su yambu");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
