@@ -1,1 +1,14 @@
+using UnityEngine;
 
+public class:MonoBehaviour
+{
+    int[] numeros = { 5, 10, 5 };
+
+    void Start()
+    {
+        if (numeros[0] == numeros[numeros.Length - 1])
+            print("Son iguales");
+        else
+            print("Son diferentes");
+    }
+}
