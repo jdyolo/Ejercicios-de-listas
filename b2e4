@@ -1,1 +1,26 @@
+using NUnit.Framework;
+using UnityEngine;
+using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor.EditorTools;
 
+public class Gamemanager1 : MonoBehaviour
+{
+    List<int> puntajes = new List<int>();
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        puntajes.Add(10);
+        puntajes.Add(5);
+        puntajes.Add(12);
+        puntajes.Add(13);
+        int randomindex = Random.Range(0, puntajes.Count - 3);
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
