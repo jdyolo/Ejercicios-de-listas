@@ -1,1 +1,12 @@
--
+using UnityEngine;
+
+public class Ej6 : MonoBehaviour
+{
+    int[] numeros = { 5, 10, 15, 20, 25 };
+
+    void Start()
+    {
+        print("Primero: " + numeros[0]);
+        print("Último: " + numeros[numeros.Length - 1]);
+    }
+}
