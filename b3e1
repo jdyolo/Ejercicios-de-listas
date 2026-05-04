@@ -1,1 +1,14 @@
+using UnityEngine;
 
+public class:MonoBehaviour
+{
+    int[] numeros = { 10, 20, 5 };
+
+    void Start()
+    {
+        if (numeros[0] > numeros[1])
+            print("Posición 0 es mayor");
+        else
+            print("Posición 1 es mayor");
+    }
+}
