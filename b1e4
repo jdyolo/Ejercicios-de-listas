@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class Ej4 : MonoBehaviour
+public class : MonoBehaviour
 {
     List<string> enemigos = new List<string>();
 
