@@ -1,1 +1,16 @@
+using UnityEngine;
 
+publicclass:MonoBehaviour
+{
+    int[] numeros = { 1, 2, 3 };
+
+    void Start()
+    {
+        int temp = numeros[0];
+        numeros[0] = numeros[2];
+        numeros[2] = temp;
+
+        print("Nuevo 0: " + numeros[0]);
+        print("Nuevo 2: " + numeros[2]);
+    }
+}
