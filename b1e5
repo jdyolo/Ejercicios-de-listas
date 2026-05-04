@@ -1,1 +1,16 @@
+using UnityEngine;
+using System.Collections.Generic;
 
+public class Ej5 : MonoBehaviour
+{
+    int[] numeros = { 1, 2, 3 };
+    List<int> lista = new List<int>();
+
+    void Start()
+    {
+        lista.Add(4);
+        lista.Add(5);
+
+        print("Lista tamaño: " + lista.Count);
+    }
+}
