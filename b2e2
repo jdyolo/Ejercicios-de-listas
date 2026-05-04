@@ -1,1 +1,12 @@
+using UnityEngine;
 
+public class Ej7 : MonoBehaviour
+{
+    int[] numeros = { 1, 2, 3, 4, 5 };
+
+    void Start()
+    {
+        numeros[2] = 99;
+        print("Nuevo valor: " + numeros[2]);
+    }
+}
