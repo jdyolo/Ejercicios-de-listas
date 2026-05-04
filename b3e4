@@ -1,1 +1,19 @@
+using UnityEngine;
 
+public class:MonoBehaviour
+{
+    int[] numeros = { 3, 9, 5 };
+
+    void Start()
+    {
+        int mayor = numeros[0];
+
+        if (numeros[1] > mayor)
+            mayor = numeros[1];
+
+        if (numeros[2] > mayor)
+            mayor = numeros[2];
+
+        print("Mayor: " + mayor);
+    }
+}
