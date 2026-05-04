@@ -1,1 +1,19 @@
+using UnityEngine;
+using System.Collections.Generic;
 
+public class:MonoBehaviour
+{
+    List<int> lista = new List<int>();
+
+    void Start()
+    {
+        lista.Add(10);
+        lista.Add(20);
+        lista.Add(30);
+
+        if (lista[1] == 20)
+            print("Es igual");
+        else
+            print("No es igual");
+    }
+}
