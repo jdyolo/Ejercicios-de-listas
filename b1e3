@@ -1,0 +1,26 @@
+using NUnit.Framework;
+using UnityEngine;
+using System.Collections.Generic;
+using Unity.VisualScripting;
+
+public class Gamemanager1 : MonoBehaviour
+{
+    int[] vidasJugadores = new int[3];
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        vidasJugadores[0] = 4;
+        vidasJugadores[1] = 5;
+        vidasJugadores[3] = 8;
+
+        int vidajugador2 = vidasJugadores[2];
+        Debug.Log("vida del jugador: " +  vidajugador2);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
